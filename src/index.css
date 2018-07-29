@@ -1,5 +1,19 @@
-body {
-  margin: 0;
+@import '~/node_modules/react-vis/dist/style';
+
+* {
+  font-family: 'Raleway', 'Open Sans', -apple-system, system-ui, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
   padding: 0;
-  font-family: sans-serif;
+  margin: 0;
+  border: 0;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+}
+
+body {
+  background-color: #ffffff;
 }
